@@ -1,0 +1,6 @@
+# 1:message_size 2:fragment 3:iterations 4:               timer 5:  core_power 6: core_energy 7:  dram_power 8: dram_energy 9:   tot_power 10:  tot_energy 11:     totinst 12:   cachemiss  13:   floatinst  14:      bw  15:bytesperfrag  16:fragperbyte 17: byteperwatt 18:      Normwatt 19:    NormEnergy 20:     BWperWatt 21:        NormBW 22:RatioBWperWatt 23:        id_tag
+ grep -i '(1)' memcpy_send.csv | grep ';1_1' >temp_result.csv
+%%% FUNCTION temp_result.csv     
+1 1                 0.0000000000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000     0.000000 0.0000000000 0.0000000000 1.0000000000     1.000000 0.0000000000 0.0000000000 0.000000000000 0.000000000000 0.000000000000 0.000000000000 1.000000000000 1_0
+
+

@@ -1,0 +1,22 @@
+
+export FIRST1="MPQMPQ"; 
+export LAST1="MPMPQ"; 
+export FIRST2="PQPQ"; 
+export LAST2="PPQ"; 
+gnuplot plotcombined_cache_block.d
+#gnuplot inst_cache_per_put_block.d
+
+export FIRST1="MPQMPQ"; 
+export LAST1="PQPQ"; 
+export FIRST2="MPMPQ"; 
+export LAST2="PPQ"; 
+gnuplot plotcombined_cache_reg.d
+#gnuplot inst_cache_per_put_reg.d
+
+export FIRST1="PPQ"; 
+export LAST1="MMPQAMM"; 
+export FIRST2=""; 
+export LAST2=""; 
+gnuplot plotcombined_cache_agg.d
+#gnuplot inst_cache_per_put_agg.d
+

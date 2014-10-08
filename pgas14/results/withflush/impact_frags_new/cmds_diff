@@ -1,0 +1,16 @@
+
+ini="MPQMPQ"; final="PQPQ"; 
+./calc_diff.sh ${ini} ${final} | tee opti_impact_percent_2901_flush/2901_opti_impact_${ini}_${final}.out
+
+ini="MPQMPQ"; final="MPMPQ"; 
+./calc_diff.sh ${ini} ${final} | tee opti_impact_percent_2901_flush/2901_opti_impact_${ini}_${final}.out
+
+ini="PQPQ"; final="PPQ"; 
+./calc_diff.sh ${ini} ${final} | tee opti_impact_percent_2901_flush/2901_opti_impact_${ini}_${final}.out
+
+ini="MPMPQ"; final="PPQ"; 
+./calc_diff.sh ${ini} ${final} | tee opti_impact_percent_2901_flush/2901_opti_impact_${ini}_${final}.out
+
+ini="PPQ"; final="MMPQAMM"; 
+./calc_diff.sh ${ini} ${final} | tee opti_impact_percent_2901_flush/2901_opti_impact_${ini}_${final}.out
+
